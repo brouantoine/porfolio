@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import '../styles/Projets.css';
 import useRemoteContent from '../hooks/useRemoteContent';
-
+import { Helmet } from 'react-helmet-async';
 
 const Projets = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
@@ -19,7 +19,10 @@ const Projets = () => {
           Découvrez mes projets phares
         </motion.p>
       </div>
-
+        <Helmet>
+        <title>Projets — Assanvo Brou Antoine</title>
+        <meta name="description" content="Mes réalisations principales." />
+      </Helmet>
       <div className="projets-grid">
         <AnimatePresence>
           {projetsData.map((projet, index) => (
