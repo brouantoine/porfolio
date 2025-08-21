@@ -2,3 +2,10 @@ node_modules/
 build/
 dist/
 .env
+node_modules/
+build/
+dist/
+.env
+venv/
+frontend/node_modules/
+frontend/build/
