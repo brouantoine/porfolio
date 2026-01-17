@@ -5,7 +5,7 @@ const siteConfig = {
     role: "Ingénieur Logiciel",
     birthdate: "1999-03-18",
     avatar: "/images/Assanvo.png",           // place une copie dans public/images si tu veux
-    cover: "/images/Couvertures.jpg"          // idem
+    cover: "/images/Couverture.png"          // idem
   },
   contact: {
     phone: "+225 07 88 33 98 82",
